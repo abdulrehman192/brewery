@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>190283220778-d7jg5h96vu0jcof92u6pdklo0ldn3c4n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.190283220778-d7jg5h96vu0jcof92u6pdklo0ldn3c4n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3mBtpk57c9D2-CCNVlIKXLVvYvqCBZkM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>190283220778</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.brewery.brewery</string>
+	<key>PROJECT_ID</key>
+	<string>brawery-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>brawery-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:190283220778:ios:c23b08d0ab7dce9a070053</string>
+</dict>
+</plist>
