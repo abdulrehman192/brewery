@@ -1,8 +1,6 @@
-import 'package:brewery/utils/firebase_utility.dart';
-import 'package:brewery/view/brawery_list_view.dart';
+import '/utils/utils.dart';
+import 'package:brewery/view/view.dart';
 import 'package:flutter/material.dart';
-
-import '../utils/utils.dart';
 
 class SignupViewModel extends ChangeNotifier
 {
@@ -44,8 +42,8 @@ class SignupViewModel extends ChangeNotifier
         context: context);
     if(u != null)
       {
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => BreweryListView()));
         Common.showSnackBar('You Successfully Signup!', context);
-        Common.openScreen(context: context, screen: BreweryListView());
       }
   }
 }

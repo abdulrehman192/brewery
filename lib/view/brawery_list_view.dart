@@ -15,12 +15,14 @@ class BreweryListView extends StatelessWidget {
         title: const Text("Brewery List"),
         backgroundColor: AppColors.primaryColor,
       ),
-      body: Padding(
+      body:
+      Padding(
         padding: const EdgeInsets.symmetric(vertical: 8.0),
         child: Consumer<BreweryViewModel>(
           builder: (_, data, __){
             data.getItems();
-            return ListView.builder(
+            return data.items.isEmpty ? const Center(child: CircularProgressIndicator(),) :
+              ListView.builder(
                 itemCount: data.items.length,
                 itemBuilder: (context, index)
                     {

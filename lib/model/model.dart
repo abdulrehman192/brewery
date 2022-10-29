@@ -1,0 +1,1 @@
+export 'brewery_item_model.dart';

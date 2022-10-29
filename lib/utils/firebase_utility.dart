@@ -49,7 +49,7 @@ class FirebaseUtility {
     {
       if(e.code == 'email-already-in-use')
       {
-        signInWithEmailPassword(email: email, password: password,context: context);
+        return await signInWithEmailPassword(email: email, password: password,context: context);
       }
       else if(e.code == 'weak-password')
       {
